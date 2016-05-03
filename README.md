@@ -7,6 +7,6 @@ Kaneshia - Dennis Wedding 2K17
 
 An example of some python code:
 
-'''python
+```python
 tmp = max([6,7,8])
 ```
