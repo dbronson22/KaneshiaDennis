@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Logan & Nathan Wedding</title>
+	<meta name="description" content="This is our wedding site to help everyone plan, participate and answer any questions that you might have.">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    
+	<!-- CSS
+  ================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Alex+Brush|Prata' rel='stylesheet' type='text/css'>
+	<link href="css/wedding.css" rel="stylesheet" type="text/css" />
+	<link href="css/layout.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link href="css/skeleton.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/responsivemobilemenu.css" type="text/css"/>
+    
+    
+	<!-- Scripts
+  ================================================== -->
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="rmm-js/responsivemobilemenu.js"></script>
+<script type="text/javascript" src="jQuery/jquery.countdown.js"></script>
+
+
+<script type="text/javascript">
+      $(function() {
+        var endDate = "August 15, 2014 18:00:00";
+
+        $('.countdown.simple').countdown({ date: endDate });
+
+        $('.countdown.styled').countdown({
+          date: endDate,
+          render: function(data) {
+            $(this.el).html("<div>" + this.leadingZeros(data.days, 3) + " <span>days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+          }
+        });
+
+        $('.countdown.callback').countdown({
+          date: +(new Date) + 10000,
+          render: function(data) {
+            $(this.el).text(this.leadingZeros(data.sec, 2) + " sec");
+          },
+          onEnd: function() {
+            $(this.el).addClass('ended');
+          }
+        }).on("click", function() {
+          $(this).removeClass('ended').data('countdown').update(+(new Date) + 10000).start();
+        });
+
+      });
+</script>
+
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=215850695106780";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+
+
+<div style="background-color:#ffaca6;" class="navigation-bar">
+<div class="rmm" data-menu-style="minimal" data-menu-title="Tap to see more">
+    <ul>
+        <li><a href="#home">Logan & Nathan</a></li>
+        <li><a href="#our-story">Our Story</a></li>
+        <li><a href="#venue">Ceremony</a></li>
+        <li><a href="#wedding-party">Wedding Party</a></li>
+        <li><a href="#out-of-town">Out of Towners</a></li>
+        <li><a href="#registry">Our Registry</a></li>
+	</ul>
+</div>
+</div>
+<a name="home" style="text-decoration:none;">&nbsp;</a>
+<center>
+<div style="background-color:#ffaca6;">
+<div class="container" style="padding:70px 0px 30px 0px;">
+        <div class="six columns">
+			<br /><br />
+            <h1 class="remove-bottom" style="font-size:80pt; color:#542e68; text-align:center; font-family: 'Alex Brush', cursive; margin:0px;">Logan</h1>
+            <br />
+        </div>
+        <div class="three columns">
+        	<div id="hide" style="padding:50px 0px 0px 0px;">&nbsp;</div>
+            <p style="font-size:50pt; text-align:center; font-family: 'Alex Brush', cursive; color:#644377;">and</p>
+        </div>
+        <div class="seven columns">
+        	<br id="hide" /><br id="hide" />
+            <h1 class="remove-bottom" id="nathan" style="font-size:80pt; color:#542e68; font-family: 'Alex Brush', cursive; margin:0px;">Nathan</h1>
+            <br />
+            <br />&nbsp;
+		</div>
+</div>
+</div>
+
+<center><img class="img-scale" width="100%" src="images/logan-nathan-pole-wide.jpg" /></center>
+<a name="our-story" style="text-decoration:none;">&nbsp;</a>
+<div class="container">
+		<div class="sixteen columns" style="margin:50px 0px 50px 0px;">
+        	<h1>Our Story</h1>
+        </div>
+        <div class="eight columns">
+            <img height="200" style="border-radius:50%;" src="images/200x200-logan.jpg" />
+            <h4>The Bride</h4><br />
+            <p>
+            Logan Elizabeth Jeffrey <span class="line-break"></span>was born in Denver, CO.<br />
+            Grew up in Ozark, MO then <br />later moved back to Denver.<br />
+            She now works as a Licensed Practical Nurse for <br />Kaiser Permanente
+            </p>
+        </div>
+        <div class="eight columns">
+        	<img height="200" style="border-radius:50%;" src="images/200x200-nathan.jpg" />
+            <h4>The Groom</h4><br />
+            <p>
+            Nathan James Brunetti <span class="line-break"></span>was born and raised <br />in Aurora, CO.<br />
+            Lived there until he moved <br />to Grand Junction, CO for college.<br />
+            He now works as a The Digital Marketing Manager for The Denver Center for the Performing Arts
+            </p>
+        </div>
+        <div class="sixteen columns">
+            <br />
+			<p style="margin:50px 0px 0px 0px;">We met in 2009 in Grand Junction, CO. We were both on the Cheerleading Team at Mesa State College, and stayed close friends for the first few months and then began dating in 2010. We fell for each other right away, and later realized there was a baby on the way. Over the next four years, we learned what life was all about and knew we were meant for each other.<br /><br />
+            He proposed on Oct 27, 2013 on The River Thames in London, England with The Tower Bridge glowing in the night sky.
+            </p>
+		</div>
+</div>
+<a name="venue" style="text-decoration:none;">&nbsp;</a>
+<div class="container">
+		<div class="sixteen columns" style="margin-top:50px;">
+			<h1>Ceremony & Reception</h1>
+        </div>
+        <div class="sixteen columns">
+            <br />
+			<img width="800" class="img-scale" src="http://3.bp.blogspot.com/-rxbHhQxNuxo/TkWv1HnkIYI/AAAAAAAAAgs/Xig_yIXpsxc/s1600/0031-Col_Greg-5.22.11.jpg" /><br /><br />
+        </div>
+</div>
+
+<div class="container">
+        <div class="one-third column">
+            <h3>Guests Information</h3>
+            <p>
+            The ceremony will take place at Willow Ridge Manor. <br />The Manor is located right off Highway 285 and Highway 8.
+            <!--The ceremony will begin promptly at 5:30 P.M., and will last approximately 30 minutes.--></p>
+        </div>
+        <div class="one-third column">
+        	<h3>Reception</h3>
+            <p>The reception will immediately follow at the same location with cocktail hour. The cocktail hour will be followed by dinner and dancing.</p>
+        </div>
+        <div class="one-third column">
+            <h3>Venue Address</h3>
+            <p>Willow Ridge Manor<br />
+            4903 Willow Springs Rd,<br />
+            Morrison, CO 80465
+            </p>
+        </div>
+        <div class="sixteen columns" style="margin:50px 0px 0px 0px;">
+        <p>Follow the directions below to get to the ceremony from the hotel or use the map to get your own directions:</p>
+            <ol>
+            	<li>Get on US-285 S from W Hampden Ave and CO-121 N/S Wadsworth Blvd</li>
+                <li>Follow US-285 S to CO-8 E. Take the exit toward Morrison from US-285 S</li>
+                <li>Continue on CO-8 E. Drive to Willow Springs Rd</li>
+                <li>Merge onto CO-8 E</li>
+                <li>Turn right onto Willow Springs Rd (Your destination will be on your right)</li>
+            </ol>
+        </div>
+</div>
+<div style="margin-top:50px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.9856920929606!2d-105.19285659999996!3d39.62752600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b7874547db66b%3A0xf18f6f440bab8039!2s4903+Willow+Springs+Rd!5e0!3m2!1sen!2sus!4v1393560383883" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+</div>
+<a name="wedding-party" style="text-decoration:none;">&nbsp;</a>
+<div class="container">
+		<div class="sixteen columns" style="margin-top:50px;">
+			<h1>The Wedding Party</h1>
+            <br />
+        </div>
+        <div class="eight columns">
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-stephanie.jpg" />
+            <h4>Stephanie Lynch</h4>
+            <p>Maid of Honor
+            	<!--<ul>
+                	<li>How and when you met</li>
+                </ul>-->
+            </p>
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-joann.jpg" />
+            <h4>Joann Taillon</h4>
+            <p>Bridesmaid
+            	<!--<ul>
+                	<li>Sister</li>
+                </ul>-->
+            </p>
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-allie.jpg" />
+            <h4>Allie Trafton</h4>
+            <p>Bridesmaid
+            	<!--<ul>
+                	<li>How and when you met</li>
+                </ul>-->
+            </p>
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-sabrina.jpg" />
+            <h4>Sabrina Richmeier</h4>
+            <p>Bridesmaid
+            	<!--<ul>
+                	<li>How and when you met</li>
+                </ul>-->
+            </p>
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-sierra.jpg" />
+            <h4>Sierra Harrison</h4>
+            <p>Bridesmaid
+            	<!--<ul>
+                	<li>How and when you met</li>
+                </ul>-->
+            </p> 
+        </div>
+        <div class="eight columns">
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-mike.jpg" />
+            <h4>Michael Neiberger</h4>
+            <p>Best Man
+            	<!--<ul>
+                	<li>We met Freshman year of High School playing soccer. We both went off to college and stayed great friends. And we had always had eachother as support.</li>
+                </ul>-->
+            </p>
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-dennis.jpg" />
+            <h4>Dennis Bronson</h4>
+            <p>Groomsman
+            	<!--<ul>
+                	<li>We met Sophomore year of High School in the weight room and played High School basball together but I knew our friendship would continue well beyond the field.</li>
+                </ul>-->
+            </p>
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-tyler.jpg" />
+            <h4>Tyler Brunetti</h4>
+            <p>Groomsman
+            	<!--<ul>
+                	<li>We met August 23, 1994 at the hospital, the day he was born.</li>
+                </ul>-->
+            </p>
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-ben.jpg" />
+            <h4>Ben Johnson</h4>
+            <p>Groomsman
+            	<!--<ul>
+                	<li>We met Freshman year of college in the dooms and then he convinced me to come cheer. If I wouldn't have done that, I wouldn't be here today.</li>
+                </ul>-->
+            </p>
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-mario.jpg" />
+            <h4>Mario Miranda</h4>
+            <p>Groomsman
+            	<!--<ul>
+                	<li>We also met Freshman year of college in the dooms  through Ben. We always found ourselves doing something new, Like becoming RA's (Residant Assistants) or shooting guns in the middle of the Book Cliffs.</li>
+                </ul>-->
+            </p>
+            <img class="add-top" height="200" style="border-radius:50%;" src="images/200x200-jake.jpg" />
+            <h4>Jake Richmeier</h4>
+            <p>Groomsman
+            	<!--<ul>
+                	<li>We met Junior year of college when Jake was volunteered by a cheer teammate to try out. From then on everything else is history.</li>
+                </ul>-->
+            </p>
+        </div>
+</div>
+<a name="out-of-town" style="text-decoration:none;">&nbsp;</a>
+<div class="container">
+		<div class="sixteen columns" style="margin-top:50px;">
+			<h1>Out of Towners</h1>
+            <br />
+            <p>Below you will find a number of hotels that are close to where the wedding will be taking place.</p>
+        </div>
+        <div class="four columns">
+        	<img style="margin:80px 0px 0px 0px;" height="35px" src="images/location2.png" />
+        	<p>Comfort Suites Southwest<br />
+            7260 W Jefferson Ave<br />
+            Lakewood, CO 80235</p>
+            <br />
+        	<img style="margin:30px 0px 0px 0px;" height="35px" src="images/location2.png" /><br />
+            <p>Holiday Inn Denver Lakewood<br />
+    		7390 W Hampden Ave<br />
+    		Lakewood, CO 80227</p>
+            <br />
+        </div>
+        <div class="seven columns" style="background-color:rgba(204,204,204,.2); border-radius:20px;">
+            <img style="margin:30px 0px 0px 0px;" height="35px" src="images/location2.png" /><br />
+            <p style="color:#542e68; font-weight:bold;">Courtyard Denver Southwest/Lakewood<br />
+            7180 W Hampden Ave,<br />
+            Lakewood, CO 80227</p>
+            We have a block of <span class="line-break"></span>rooms reserved <br />at the Courtyard Marriott. <br />To book your room follow <br />the instructions below.
+            <br /><br />
+            <strong>Start date: 8/13/14</strong><br />
+            <strong>End date: 8/16/14</strong><br />
+            <strong>Last day to book by: 7/14/14</strong>
+            <br /><br />
+            <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Brunetti/Jeffrey%20Wedding%20%5Edenlk%60jbwjbwa%7Cjbwjbwb%6099.00-109.00%60USD%60false%608/13/14%608/16/14%607/14/14&app=resvlink&stop_mobi=yes"><button>Make a Reservation</button></a>
+            </p>
+        </div>
+        <div class="four columns">
+        	<img style="margin:80px 0px 0px 0px;" height="35px" src="images/location2.png" />
+            <p>Best Western Denver <br />Southwest<br />
+            3440 S Vance St<br />
+            Lakewood, CO 80227</p>
+            <br />
+            <img style="margin:30px 0px 0px 0px;" height="35px" src="images/location2.png" />
+            <p>La Quinta Inn & Suites<br />
+            7190 W Hampden Ave,<br />
+            Lakewood, CO 80227</p>
+            <br />
+        </div>
+</div><!-- container -->
+<div id="hide" style="margin-top:50px;">
+        	<iframe src="https://mapsengine.google.com/map/embed?mid=ziHGulZ6jWPk.kmZNTZx8o7-A" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+</div>
+
+<a name="registry" style="text-decoration:none;">&nbsp;</a>
+<div class="sixteen columns" style="margin:150px 0px 150px 0px;">
+	<h1>Our Registry</h1>
+    <br />
+    <p>
+    We look forward to celebrating with you!
+    <br /><br />
+    Please join us on our special day,<br />
+    your attendance is desired.<br />
+    And your dancing shoes are required<br />
+    <br /><br />
+    We are registered at Bed Bath and Beyond and Target<br />
+    You can find the registry under Nathan Brunetti or Logan Jeffrey.
+    </p>
+    <a target="_blank" href="http://www.bedbathandbeyond.com/store/page/Registry"><button>Bed Bath & Beyond</button></a><br /><br />
+    <a target="_blank" href="http://www.target.com/wedd/registry/Me61jBzN2CKoj2MI8C7YaQ"><button>Target</button></a>
+    <p>
+    <br /><br />
+    ~ Thank You ~
+    </p>
+</div>
+
+<div class="sixteen columns" style="margin:150px 0px 150px 0px;">
+	<h1>We can't wait to see you in</h1>
+    <br />
+	<div class="countdown styled"></div>
+    <br />
+    <h3>on Aug 15, 2014</h3>
+</div>    
+<center><img class="img-scale" width="100%" src="images/logan-nathan-walking-away-wide.jpg" /></center>
+</center>
+</body>
+</html>
