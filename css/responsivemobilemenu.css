@@ -14,11 +14,12 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	position:fixed;
 	width:100%;
 	z-index:50;
+	background-color:#542E68;
 }
 .rmm {
 	display:block;
 	position:relative;
-	background-color:#ffaca6;
+	background-color:#542E68;
 	width:100%;
 	padding:0px;
 	margin:0 auto !important;
@@ -277,7 +278,7 @@ border-bottom-right-radius: 5px;
 }
 .rmm.minimal a:hover {
 	opacity:1.0;
-	background-color:#542e68;
+	background-color:#01014B;
 	color:#ffffff;
 }
 .rmm.minimal .rmm-main-list li a {
@@ -285,6 +286,7 @@ border-bottom-right-radius: 5px;
 	padding:8px 30px 8px 30px;
 	margin:0px -3px 0px -3px;
 	font-size:15px;
+	color:#FFFFFF;
 }
 .rmm.minimal .rmm-toggled {
 	width:95%;
