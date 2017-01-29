@@ -18,7 +18,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 .rmm {
 	display:block;
 	position:relative;
-	background-color:#ffaca6;
+	background-color:#644377;
 	width:100%;
 	padding:0px;
 	margin:0 auto !important;
@@ -179,7 +179,7 @@ border-bottom-right-radius: 6px;
 	margin:0px -3px 0px -3px;
 	font-size:15px;
 	text-shadow:1px 1px 1px #3e587b;
-	background-color:#537b9f;
+	background-color:#542e68;
 	border-left:1px solid #3e587b;
 	background-image:url('../rmm-img/sapphire-menu-bg.png');
 	background-repeat:repeat-x;
@@ -262,7 +262,7 @@ border-bottom-right-radius: 5px;
 	border-bottom:1px solid #3c5779;
 	border-top:1px solid #3c5779;
 }
-.rmm.sapphire .rmm-toggled ul li:first-child a { 
+.rmm.sapphire .rmm-toggled ul li:first-child a {
 	border-top:1px solid #3c5779 !important;
 }
 
@@ -273,7 +273,7 @@ border-bottom-right-radius: 5px;
 /* MINIMAL STYLE */
 
 .rmm.minimal a {
-	color:#542e68;
+	color:#01014b;
 }
 .rmm.minimal a:hover {
 	opacity:1.0;

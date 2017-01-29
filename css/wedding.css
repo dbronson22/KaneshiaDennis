@@ -21,12 +21,12 @@
 	#Buttons
 	#Forms
 	#Misc */
-	
+
 /* Color Styles
 ==================================================
 	purple = #542e68
 	peach  = #ffaca6
-	
+
 */
 
 /* #Reset & Basics (Inspired by E. Meyers)
@@ -64,8 +64,8 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
- 
- 
+
+
 /* #Table Styles
 ================================================== */
 	.main-table {
@@ -77,7 +77,7 @@
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		color: #644377;
+		color: #01014b;
 		font-family: 'Prata', serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -276,7 +276,7 @@
 		font-weight: normal;
 		font-size: 13px;
 		color: #444; }
-	
+
 
 /* #Misc
 ================================================== */
@@ -291,15 +291,12 @@
 
 	.hotel-map {
 		width:90%;
-		height:200px;	
+		height:200px;
 	}
-	
+
 /* Google Map Style Edits
 ================================================== */
 
 	.place-card-medium {
 		display:none;
 	}
-
-
-
