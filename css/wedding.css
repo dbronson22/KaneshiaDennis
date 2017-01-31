@@ -160,7 +160,7 @@
 	  -moz-border-radius: 5px;
 	  -webkit-border-radius: 5px;
 	  border-radius: 5px;
-	  color: #ffaca6;
+	  color: white;
 	  display: inline-block;
 	  font-size: 18px;
 	  font-weight: bold;
@@ -179,14 +179,14 @@
 	input[type="submit"]:hover,
 	input[type="reset"]:hover,
 	input[type="button"]:hover {
-		color: #542e68;
-		background: #ffaca6; /* Old browsers */
-		background: #ffaca6; /* FF3.6+ */
-		background: #ffaca6; /* Chrome,Safari4+ */
-		background: #ffaca6 -webkit-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* Chrome10+,Safari5.1+ */
-		background: #ffaca6; /* Opera11.10+ */
-		background: #ffaca6; /* IE10+ */
-		background: #ffaca6; /* W3C */
+		color: #white;
+		background: #01014b; /* Old browsers */
+		background: #01014b; /* FF3.6+ */
+		background: #01014b; /* Chrome,Safari4+ */
+		background: #01014b -webkit-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* Chrome10+,Safari5.1+ */
+		background: #01014b; /* Opera11.10+ */
+		background: #01014b; /* IE10+ */
+		background: #01014b; /* W3C */
 	  border: 0px solid #888;
 	  border-top: 0px solid #aaa;
 	  border-left: 0px solid #aaa; }

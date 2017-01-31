@@ -273,7 +273,7 @@ border-bottom-right-radius: 5px;
 /* MINIMAL STYLE */
 
 .rmm.minimal a {
-	color:#01014b;
+	color:#white;
 }
 .rmm.minimal a:hover {
 	opacity:1.0;
