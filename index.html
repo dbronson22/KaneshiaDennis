@@ -93,6 +93,7 @@
                
                if (magicwordentered == magicword){
                    alert("you got it");
+		   $("#myIframe").show();
                    
                }else{
                    alert("nope");
@@ -237,7 +238,7 @@
 <div class="container">
 		<div class="sixteen columns" style="margin:50px 0px 50px 0px;">
         	<h1>RSVP</h1>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1-915GlTUYy4Y2sy-t86bJEJQS8K-yZKI0gLSeenK0PADQQ/viewform?embedded=true" width="80%" height="1150" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <iframe display=none id="myIframe" src="https://docs.google.com/forms/d/e/1FAIpQLSc1-915GlTUYy4Y2sy-t86bJEJQS8K-yZKI0gLSeenK0PADQQ/viewform?embedded=true" width="80%" height="1150" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
         <div class="eight columns">
 
