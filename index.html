@@ -74,6 +74,34 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=215850695106780";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+    
+    
+    <!-- Script to show/hide the rsvp with input of a pass phrase
+	================================================== 
+    
+    <p>what is the magic word</p>
+        
+        <p><input type="text" id="magicword"></p>
+        
+        <p><button id="checkmagicword">enter</button></p>
+        
+        <script type="text/javascript">
+            
+           document.getElementById("checkmagicword").onclick = function(){
+               var magicwordentered = document.getElementById("magicword").value;
+               var magicword = "bronsonwedding";
+               
+               if (magicwordentered == magicword){
+                   alert("you got it");
+                   
+               }else{
+                   alert("nope");
+               }
+           }
+            
+        </script>
+    
+-->
 
 	<!-- Primary Page Layout
 	================================================== -->
