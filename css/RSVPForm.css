@@ -3,3 +3,10 @@
 h1.ss-form-title, .ss-resp-card .ss-header-image-container{
     background: url(/Pictures/EternityHandSign.jpg) top center no-repeat!important;
 }
+
+h1.ss-form-title, .ss-resp-card .ss-header-image-container {
+    background: url(/Pictures/Kaneshia.jpg) top center no-repeat;}
+    
+h1.ss-form-title, .ss-resp-card .ss-header-image-container {
+    display: none!important;
+}
